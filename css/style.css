@@ -1,0 +1,122 @@
+/*
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*/
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-color: #222;*/
+    color: white;
+    font-size: 16px;
+    background-image: url("../img/fondo-cocina.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ 
+.imagenDeReceta {
+     display: block;
+     margin: 0 auto; 
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em; 
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em; 
+}
+
+p {
+  text-align: center;
+  
+}
+
+#superDestacado {
+    color: rgb(250, 162, 159);
+    font-style: italic;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.subrayado {
+    text-decoration: underline 2px rgb(255, 255, 255);
+}
+
+section, nav, footer{
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    margin: 10px;
+}
+
+section {
+    background-color: red;
+}
+footer {
+    background-color: blue;
+    text-align: center;
+}
+
+.caja {
+    /*margin: 10px;*/
+    background-color: yellow;
+    width: 50%;
+    float: left;
+    padding: 5px;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+nav{
+    position: sticky;
+}
+
+nav ul li a {
+    color:rgb(201, 255, 255);
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    color:rgb(35, 104, 233);
+   /*  font-size: 1.3rem; */
+}
+
+.flecha {
+    width: 100px;
+    position: fixed;
+    right: 0;
+    bottom:0 ;
+    cursor: pointer;
+
+}
+.clearfix {
+    overflow: auto;
+  }
+
+.texto {
+    padding-inline: 50px;
+    
+}
+
+.inicio {
+    background-color: rgba(0, 0, 0, 0.135);
+    width: 30%;
+    margin: auto;
+}
